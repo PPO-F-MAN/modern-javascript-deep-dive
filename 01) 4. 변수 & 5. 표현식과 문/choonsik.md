@@ -145,10 +145,10 @@ var score = 80; // 변수 선언과 값의 할당
 다음 코드를 실행시켜보자.
 
 ```javascript
-console.log(score); // 3. undefined
+console.log(score); // 2. undefined
 
 var score; // 1. 변수 선언
-score = 80; // 2. 값의 할당
+score = 80; // 3. 값의 할당
 
 console.log(score); // 4. 80
 ```
@@ -399,6 +399,4 @@ console.log(foo); // 100
 var foo = var x; // Uncaught SyntaxError: Unexpected token 'var'
 ```
 
-> **완료 값** : 크롬 개발자 도구에서 표현식이 아닌 문을 실행하면 undefined (할당/참조 불가)<br>
-> ![](https://media.vlpt.us/images/jiseung/post/bcfba189-ca91-4395-81bf-c3d2dd4c3ee3/image.png)<br>
-> **표현식인 문** : 평가된 값 반환<br> > ![](https://media.vlpt.us/images/jiseung/post/23bdd2ee-b2d0-4ea7-a3be-3c09afcf0455/image.png)
+> **완료 값** : 크롬 개발자 도구에서 표현식이 아닌 문을 실행하면 undefined (할당/참조 불가)<br> > ![](https://media.vlpt.us/images/jiseung/post/bcfba189-ca91-4395-81bf-c3d2dd4c3ee3/image.png)<br> > **표현식인 문** : 평가된 값 반환<br> > ![](https://media.vlpt.us/images/jiseung/post/23bdd2ee-b2d0-4ea7-a3be-3c09afcf0455/image.png)
