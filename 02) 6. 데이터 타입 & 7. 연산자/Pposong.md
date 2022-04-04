@@ -470,7 +470,7 @@ typeof 연산자는 7가지 문자열 "string", "number", "boolean", "undefined"
 
 "null"을 반환하는 경우는 없다.
 
-따라서 값이 `null` 타입인지 확인할 떄는 `typeof` 연산자를 사용하지 말고 일치 연산자(===)를 사용하자.
+따라서 값이 `null` 타입인지 확인할 때는 `typeof` 연산자를 사용하지 말고 일치 연산자(===)를 사용하자.
 
 ```js
 var foo = null;
