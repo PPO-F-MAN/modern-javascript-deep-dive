@@ -21,3 +21,9 @@
 |[춘식](https://github.com/jiseung-kang)|[세인트](https://github.com/Seongtaek-H)|[준](https://github.com/junghyeonsu)|[뽀송](https://github.com/i4song)|[이안](https://github.com/useonglee)|[다나](https://github.com/deli-ght)|
 |-|-|-|-|-|-|
 |0|0|0|0|0|0|
+
+## 발표 
+
+- [[춘식] 4. 변수](https://velog.io/@jiseung/%EB%B3%80%EC%88%98)
+- [[춘식] 5. 표현식과 문](https://velog.io/@jiseung/%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC-%EB%AC%B8)
+- [[뽀송] 6. 데이터 타입 & 7. 연산자](https://velog.io/@dnr6054/data-type-and-operator)
