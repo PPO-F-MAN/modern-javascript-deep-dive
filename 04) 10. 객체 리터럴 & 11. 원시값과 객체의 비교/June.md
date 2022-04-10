@@ -1,0 +1,155 @@
+# 10. 객체 리터럴
+
+## 10.1 객체란?
+
+- 자바스크립트는 객체 기반의 프로그래밍 언어다.
+- 원시 값(숫자, 문자열, boolean, etc...)와 같은 값을 제외하고는 전부 객체다.
+- 원시 타입은 하나의 값만 나타내지만 객체는 다양한 타입의 값을 하나의 단위로 구성한 복합적인 자료구조다.
+- 프로퍼티는 키와 값으로 구성된다.
+- 객체는 프로퍼티와 메서드로 구성된 집합체다.
+
+```javascript
+var counter: {
+  num: 0, // 프로퍼티
+  increase: function () { // 메서드
+    this.num++;
+  }
+}
+```
+
+## 10.2 객체 리터럴에 의한 객체 생성
+
+> 자바스크립트는 프로토타입 기반 객체지향 언어로서 클래스 기반 객체지향 언어와는 달리 다양한 객체 생성 방법을 지원한다.
+
+- 객체 리터럴
+- Object 생성자 함수
+- 생성자 함수
+- Object.create 메서드
+- 클래스 (es6)
+
+## 10.3 프로퍼티
+
+> 객체는 프로퍼티의 집합이며, 프로퍼티는 키와 값으로 구성된다.
+
+```javascript
+var person = {
+  name: "hyeonsu", // key: name, value: 'hyeonsu'
+  age: 20, // key: age, value: 20
+};
+```
+
+- 프로퍼티를 나열할 때는 쉼표(,)로 구분
+- 프로퍼티 key로 사용할 수 있는 값은 문자열을 포함하는 모든 문자열 또는 심벌 값이다.
+- 프로퍼티 value로 사용할 수 있는 값은 자바스크립트에서 사용할 수 있는 모든 값이다.
+
+```javascript
+// 예제 10-06 프로퍼티 키를 동적으로 생성하기
+var obj = {};
+var key = "hello";
+
+obj[key] = "world";
+
+console.log(obj); // {hello: "world"}
+```
+
+## 10.4 메서드
+
+> 프로퍼티가 함수일 경우 일반 함수와 구분하기 위해 메서드라고 부른다.
+
+```javascript
+var circle = {
+  sayHello: function () {
+    // 메서드
+    console.log("hello");
+  },
+};
+```
+
+## 10.5 프로퍼티 접근
+
+> 프로퍼티에 접근하는 방법은 마침표 표기법(.)과 대괄호 프로퍼티 접근 연산자([...])를 사용하는 대괄호 표기법이 있다.
+
+- 식별자 네이밍 규칙을 준수하는 이름이면 둘 다 가능하다.
+- 객체에 존재하지 않는 프로퍼티에 접근하면 undefined를 반환한다. 이 때 참조 에러가 발생하지 않는다. (주의)
+
+```javascript
+var person = {
+  'last-number': 'Lee',
+  1: 10,
+};
+
+person.'last-name'; // 신택스 에러: Unexpected string
+person.last-name; // 브라우저: NaN
+                  // Node.js: 참조 에러: name is not defined
+person[last-name]; // last is not defined
+person['last-name']; // 'Lee'
+
+// 프로퍼티 키가 숫자로 이뤄진 문자열인 경우 따옴표를 생략할 수 있다.
+person.1; // 신택스 에러: Unexpected number
+person.'1'; // 신택스 에러: Unexpected string
+person[1]; // 10
+person['1'] // 10
+```
+
+- 식별자 네이밍 규칙을 준수하지 않을 땐 대괄호 프로퍼티로 접근해야 한다.
+
+## 10.6 프로퍼티 갱신
+
+> 이미 존재하는 프로퍼티에 값을 할당하면 프로퍼티 값이 갱신된다.
+
+## 10.7 프로퍼티 동적 생성
+
+> 존재하지 않는 프로퍼티에 값을 할당하면 프로퍼티가 동적으로 생성되어 추가되고 프로퍼티 값이 할당된다.
+
+## 10.8 프로퍼티 삭제
+
+> delete 연산자를 통해 객체의 프로퍼티를 삭제할 수 있다.
+
+- 존재하지 않는 프로퍼티를 삭제 시도하면 아무런 에러 없이 그냥 넘어간다.
+
+## 10.9 ES6에서 추가된 객체 리터럴의 확장 기능
+
+### 10.9.1 프로퍼티 축약 표현
+
+```javascript
+let x = 1,
+  y = 2;
+
+const obj = { x, y };
+
+console.log(obj); // {x: 1, y: 2};
+```
+
+### 10.9.2 계산된 프로퍼티 이름
+
+```javascript
+var prefix = "prop";
+var i = 0;
+
+obj[prefix + "-" + ++i] = i;
+obj[prefix + "-" + ++i] = i;
+obj[prefix + "-" + ++i] = i;
+
+console.log(obj); // {prop-1: 1, prop-2: 2, prop-3: 3}
+```
+
+### 10.9.3 메서드 축약 표현
+
+```javascript
+const objES5 = {
+  name: "hyeonsu",
+  sayHi: function () {
+    console.log("hi");
+  },
+};
+
+const objES6 = {
+  name: "hyeonsu",
+  sayHi() {
+    console.log("hi");
+  },
+};
+```
+
+- 메서드 축약 표현으로 정의한 메서드는 프로퍼티에 할당한 함수와 다르게 동작한다.
+- 이 부분은 메서드에서 자세히 살펴보세요.
