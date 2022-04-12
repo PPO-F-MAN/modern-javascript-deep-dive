@@ -33,3 +33,10 @@
 
 - [[뽀송] 6. 데이터 타입 & 7. 연산자](https://velog.io/@dnr6054/data-type-and-operator)
 
+#### 세번째 발표 (8. 제어문 & 9. 타입변환과 단축평가)
+
+- [[세인트] 8. 제어문 & 9. 타입변환과 단축평가](https://github.com/PPO-F-MAN/modern-javascript-deep-dive/blob/c14d594abc6576cd8cd15406b7412feb3c20ee9c/03\)%208.%20%EC%A0%9C%EC%96%B4%EB%AC%B8%20&%209.%20%ED%83%80%EC%9E%85%EB%B3%80%ED%99%98%EA%B3%BC%20%EB%8B%A8%EC%B6%95%ED%8F%89%EA%B0%80/saint.md)
+
+#### 네번째 발표 (10. 객체 리터럴 & 11. 원시값과 객체의 비교)
+
+- [[이안] 10. 객체 리터럴 & 11. 원시값과 객체의 비교](https://www.useonglee.dev/blog/%EA%B0%9D%EC%B2%B4-%EB%A6%AC%ED%84%B0%EB%9F%B4&%EC%9B%90%EC%8B%9C%EA%B0%92%EA%B3%BC-%EA%B0%9D%EC%B2%B4%EC%9D%98-%EB%B9%84%EA%B5%90)
