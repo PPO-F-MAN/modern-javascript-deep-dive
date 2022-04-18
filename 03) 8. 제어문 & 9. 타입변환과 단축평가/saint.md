@@ -145,7 +145,7 @@ for (변수 선언문 또는 할당문 ; 조건식 ; 증감식){
 일반적인 for 문
 
 ```js
-for (var i =0 ; i < 2 i++){
+for (var i =0 ; i < 2 ; i++){
   console.log(i) // 0 1
 }
 ```
