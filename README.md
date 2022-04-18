@@ -40,3 +40,7 @@
 #### 네번째 발표 (10. 객체 리터럴 & 11. 원시값과 객체의 비교)
 
 - [[이안] 10. 객체 리터럴 & 11. 원시값과 객체의 비교](https://www.useonglee.dev/blog/%EA%B0%9D%EC%B2%B4-%EB%A6%AC%ED%84%B0%EB%9F%B4&%EC%9B%90%EC%8B%9C%EA%B0%92%EA%B3%BC-%EA%B0%9D%EC%B2%B4%EC%9D%98-%EB%B9%84%EA%B5%90)
+
+#### 다섯번째 발표 (12. 함수)
+
+- [[준] 12. 함수 | 발표자료](https://junghyeonsu-dev.vercel.app/posts/Function)
