@@ -44,3 +44,7 @@
 #### 다섯번째 발표 (12. 함수)
 
 - [[준] 12. 함수 | 발표자료](https://junghyeonsu-dev.vercel.app/posts/Function)
+
+#### 여섯번째 발표 (23. 실행컨텍스트 & 13. 스코프)
+
+- [[다나] 23. 실행컨텍스트 & 13. 스코프](https://deliminju.notion.site/5ffb947f2de740a1a3a9308e3894e1dd)
