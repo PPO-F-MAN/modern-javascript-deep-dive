@@ -24,27 +24,37 @@
 
 ## 발표
 
-#### 첫번째 발표 (4장 변수 & 5장 표현식과 문)
+#### 첫 번째 발표 (4장 변수 & 5장 표현식과 문)
 
 - [[춘식] 4. 변수](https://velog.io/@jiseung/%EB%B3%80%EC%88%98)
 - [[춘식] 5. 표현식과 문](https://velog.io/@jiseung/%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC-%EB%AC%B8)
 
-#### 두번째 발표 (6장 데이터 타입 & 7장 연산자)
+#### 두 번째 발표 (6장 데이터 타입 & 7장 연산자)
 
 - [[뽀송] 6. 데이터 타입 & 7. 연산자](https://velog.io/@dnr6054/data-type-and-operator)
 
-#### 세번째 발표 (8. 제어문 & 9. 타입변환과 단축평가)
+#### 세 번째 발표 (8. 제어문 & 9. 타입변환과 단축평가)
 
 - [[세인트] 8. 제어문 & 9. 타입변환과 단축평가](https://github.com/PPO-F-MAN/modern-javascript-deep-dive/blob/c14d594abc6576cd8cd15406b7412feb3c20ee9c/03\)%208.%20%EC%A0%9C%EC%96%B4%EB%AC%B8%20&%209.%20%ED%83%80%EC%9E%85%EB%B3%80%ED%99%98%EA%B3%BC%20%EB%8B%A8%EC%B6%95%ED%8F%89%EA%B0%80/saint.md)
 
-#### 네번째 발표 (10. 객체 리터럴 & 11. 원시값과 객체의 비교)
+#### 네 번째 발표 (10. 객체 리터럴 & 11. 원시값과 객체의 비교)
 
 - [[이안] 10. 객체 리터럴 & 11. 원시값과 객체의 비교](https://www.useonglee.dev/blog/%EA%B0%9D%EC%B2%B4-%EB%A6%AC%ED%84%B0%EB%9F%B4&%EC%9B%90%EC%8B%9C%EA%B0%92%EA%B3%BC-%EA%B0%9D%EC%B2%B4%EC%9D%98-%EB%B9%84%EA%B5%90)
 
-#### 다섯번째 발표 (12. 함수)
+#### 다섯 번째 발표 (12. 함수)
 
 - [[준] 12. 함수 | 발표자료](https://junghyeonsu-dev.vercel.app/posts/Function)
 
-#### 여섯번째 발표 (23. 실행컨텍스트 & 13. 스코프)
+#### 여섯 번째 발표 (23. 실행컨텍스트 & 13. 스코프)
 
 - [[다나] 23. 실행컨텍스트 & 13. 스코프](https://deliminju.notion.site/5ffb947f2de740a1a3a9308e3894e1dd)
+
+#### 일곱 번째 발표 (14. 전역변수의 문제점 & 15. let, const와 블록 레벨 스코프)
+
+- [[춘식] 전역변수의 문제점](https://velog.io/@jiseung/JavaScript-%EC%A0%84%EC%97%AD-%EB%B3%80%EC%88%98%EC%9D%98-%EB%AC%B8%EC%A0%9C%EC%A0%90)
+- [[춘식] let, const와 블록 레벨 스코프](https://velog.io/@jiseung/JavaScript-let-const-%ED%82%A4%EC%9B%8C%EB%93%9C%EC%99%80-%EB%B8%94%EB%A1%9D-%EB%A0%88%EB%B2%A8-%EC%8A%A4%EC%BD%94%ED%94%84)
+
+#### 여덟 번째 발표 (08) 16. 프로퍼티 어트리뷰트 & 17. 생성자 함수에 의한 객체 생성)
+
+- [[뽀송] 프로퍼티 어트리뷰트](https://velog.io/@dnr6054/property-attribute)
+- [[뽀송] 생성자 함수에 의한 객체 생성](https://velog.io/@dnr6054/deepdive-constructor)
