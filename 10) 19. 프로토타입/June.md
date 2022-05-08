@@ -158,3 +158,61 @@ console.log(circle1.getArea === circle2.getArea); // true
 - 프로토타입 체인의 종점인 `Object.prototype` 까지 프로퍼티 검색을 했는데 해당 프로퍼티가 없다면 `undefined`를 반환한다. 이 때 에러를 뱉지 않는다는 것에 주의하자.
 - 스코프 체인은 식별자 검색을 위한 메커니즘이고, 프로토타입 체인은 상속과 프로퍼티 검색을 위한 메커니즘이라고 보면된다.
 - 스코프 체인과 프로토타입 체인은 서로 연관없이 별도로 동작하는 것이 아니라 서로 협력하여 식별자와 프로퍼티를 검색하는 데 사용된다.
+
+## 19.8 오버라이딩과 프로퍼티 섀도잉
+
+- 오버라이딩: 상위 클래스가 가지고 있는 메서드를 하위 클래스가 재정의하여 사용하는 방식
+- 오버로딩: 함수 이름은 동일하지만 매개변수의 타입 또는 개수가 다른 메서드를 구현하고 매개변수에 의해 메서드를 구별하여 호출하는 방식
+
+## 19.10 instanceof 연산자
+
+- `객체 instanceof 생성자 함수` 형식으로 사용 가능하다.
+- `instanceof` 연산자는 프로토타입의 `constructor` 프로퍼티가 가리키는 생성자함수를 찾는 것이 아니라 생성자 함수의 `prototype`에 바인딩된 객체가 프로토타입 체인 상에 존재하는지 확인한다.
+
+## 19.11 직접 상속
+
+### 19.11.1 Object.create에 의한 직접 상속
+
+- Object.create 메서드는 명시적으로 프로토타입을 지정하여 새로운 객체를 생성한다.
+
+### 19.11.2 객체리터럴 내부에서 **proto**에 의한 직접 상속
+
+- `__proto__`에 접근해서 직접 프로퍼티를 상속할 수 있다.
+
+## 19.13 프로퍼티 존재 확인
+
+### 19.13.1 in 연산자
+
+```javascript
+// key in object
+const person = {
+  name: "hyeonsu",
+  address: "daejeon",
+};
+
+console.log("name" in person); // true
+
+console.log("age" in person); // false
+```
+
+## 19.14 프로퍼티 열거
+
+### 19.14.1 for ... in문
+
+```javascript
+for (변수선언문 in 객체) { ... }
+
+const person = {
+  name: 'hyeonsu',
+  address: 'daejeon',
+};
+
+for (const key in person) {
+  console.log(key);
+}
+
+// name
+// address
+```
+
+### 19.14.2 Object.keys / values / entries 메서드
