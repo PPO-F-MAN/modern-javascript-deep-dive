@@ -58,3 +58,8 @@
 
 - [[뽀송] 프로퍼티 어트리뷰트](https://velog.io/@dnr6054/property-attribute)
 - [[뽀송] 생성자 함수에 의한 객체 생성](https://velog.io/@dnr6054/deepdive-constructor)
+
+
+#### 열 두번째 발표 (24. 클로저)
+
+- [[다나] 24. 클로저](https://velog.io/@deli-ght/%EB%94%A5%EB%8B%A4%EC%9D%B4%EB%B8%8C-%EC%8A%A4%ED%84%B0%EB%94%94-%ED%81%B4%EB%A1%9C%EC%A0%80)
