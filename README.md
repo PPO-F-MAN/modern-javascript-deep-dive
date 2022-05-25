@@ -76,3 +76,7 @@
 #### 열두 번째 발표 (24. 클로저)
 
 - [[다나] 클로저](https://velog.io/@deli-ght/%EB%94%A5%EB%8B%A4%EC%9D%B4%EB%B8%8C-%EC%8A%A4%ED%84%B0%EB%94%94-%ED%81%B4%EB%A1%9C%EC%A0%80)
+
+#### 열여섯 번째 발표 (28. Number & 29. Math & 30. Date & 31. RegExp)
+
+- [[이안] Number & Math & Date & RegExp](https://www.useonglee.dev/blog/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Number-Math-Date-RegExp)
