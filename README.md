@@ -80,3 +80,7 @@
 #### 열여섯 번째 발표 (28. Number & 29. Math & 30. Date & 31. RegExp)
 
 - [[이안] Number & Math & Date & RegExp](https://www.useonglee.dev/blog/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Number-Math-Date-RegExp)
+
+#### 열여덟 번째 발표 (36. 브라우저 렌더링 과정)
+
+- [[다나] 브라우저 렌더링 과정](https://deliminju.notion.site/e80c616b50d04de8955b472b5a4ac905)
