@@ -70,7 +70,7 @@
 
 #### 열한 번째 발표 (20. strict mode & 21. 빌트인 객체 & 22. this)
 
-- [준] strict mode & 빌트인 객체 : 해당 레파지토리에 있습니다. 링크가 안걸려요! (준: 그러니까요... 보고싶으면 직접 들어갑시다!)
+- [[준] strict mode & 빌트인 객체](https://github.com/PPO-F-MAN/modern-javascript-deep-dive/blob/513abc817ce746a8c2778c59cf6794edbf6de199/11\)%2020.%20strict%20mode%20&%2021.%20%EB%B9%8C%ED%8A%B8%EC%9D%B8%20%EA%B0%9D%EC%B2%B4%20&%2022.%20this/June.md)
 - [[준] this는 호출 때 결정된다.](https://junghyeonsu-dev.vercel.app/posts/This)
 
 #### 열두 번째 발표 (24. 클로저)
@@ -80,6 +80,10 @@
 #### 열여섯 번째 발표 (28. Number & 29. Math & 30. Date & 31. RegExp)
 
 - [[이안] Number & Math & Date & RegExp](https://www.useonglee.dev/blog/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Number-Math-Date-RegExp)
+
+#### 열일곱 번째 발표 (32.String & 33.Symbol)
+
+- [[준] String & Symbol](https://github.com/PPO-F-MAN/modern-javascript-deep-dive/blob/513abc817ce746a8c2778c59cf6794edbf6de199/17\)%2032.%20String%20&%2033.%20Symbol/June.md)
 
 #### 열여덟 번째 발표 (36. 브라우저 렌더링 과정)
 
